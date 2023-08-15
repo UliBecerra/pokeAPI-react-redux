@@ -150,7 +150,7 @@ function Pokedex() {
         </form>
       </section>
       {/* Lista de Pokemons */}
-      <section className="capitalize max-w-[1150px] px-2 grid gap-6 auto-rows-auto grid-cols-[repeat(auto-fill,_minmax(260px,_1fr))] first-letter: place-content-center m-auto ">
+      <section className="w-screen capitalize max-w-[1150px] px-2 grid gap-6 auto-rows-auto grid-cols-[repeat(auto-fill,_minmax(260px,_1fr))]o first-letter: place-content-center m-auto ">
         {pokemonsInPage.map((pokemon) => (
           <PokemonCard key={pokemon.url} pokemonURL={pokemon.url} />
         ))}
